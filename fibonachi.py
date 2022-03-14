@@ -1,9 +1,9 @@
-def fibo(n): #вычислить n-ный элемент фибоначи
+def fibo(n): 
     i=0
     if n<2:
         return(1)
     else:
-        f=[0]*n #задаем список длиной в n Элементов
+        f=[0]*n 
         f[0]=1
         f[1]=1
         for i in range(2,n):
